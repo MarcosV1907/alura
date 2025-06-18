@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Marcos Vinícius </p>
+        <h1>Estou aprendendo Programação</h1>
+        <p>Sou Estudante do 3°ano, aprendendo mais sobre o mundo da programação! </p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Primeiras páginas criandas com o HTML e CSS. </h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta as minhas primeiras páginas criadas utilizando as ferramentas do Html e CSS
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Uma hitória de aventura feita pelas ferramentas de HTML e CSS.</h5>
+                        <p class="card-text">Essa história interativa foi desenvolvida como parte de um projeto de aprendizado, utilizando HTML, CSS e JavaScript para criar uma narrativa onde o leitor pode tomar decisões que influenciam o rumo da história.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Quiz de perguntas utilizando Pyhton e JavaScript
+                        </h5>
+                        <p class="card-text">Este projeto cria uma experiência interativa educativa sobre
+                            perguntas diversas, permitindo aos usuários explorar informações sobre geografia, programação e linguagem.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha página web</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>🌐 O que é HTML?
+O HTML (HyperText Markup Language) é a linguagem utilizada para estruturar o conteúdo da web. Ele define a estrutura básica de uma página, como títulos, parágrafos, listas, links e imagens. Imagine-o como a espinha dorsal de uma página web.
+
+                    </p>🎨 E o que é CSS?
+O CSS (Cascading Style Sheets) é responsável pela aparência visual da página. Ele permite que você defina cores, fontes, espaçamentos e posicionamentos, dando estilo e tornando a página mais atraente. Se o HTML é a estrutura, o CSS é o design.
+                    </p>
+🛠️ Como funcionam juntos?
+O HTML cria a estrutura da página.
+
+O CSS aplica estilos a essa estrutura.
+
+Por exemplo, você pode ter um título em HTML e usar o CSS para definir sua cor e tamanho.
+</p>
+
+📌 Como começar?
+Crie um arquivo HTML: Esse arquivo conterá a estrutura da sua página.
+
+Adicione um arquivo CSS: Esse arquivo será vinculado ao HTML e definirá os estilos da página.
+<p>
+</p>💡 Dica
+Para visualizar sua página:
+
+Salve o arquivo HTML com a extensão .html.
+
+Abra o arquivo em um navegador de sua preferência.</p>
+
+                    </p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>🧭 A Jornada de Léo: Em Busca da Cidade Perdida
+Léo sempre sonhou em viver grandes aventuras. Um dia, enquanto explorava o sótão de sua casa, encontrou uma carta antiga com um mapa misterioso. O mapa indicava o caminho para uma cidade perdida, escondida nas profundezas da floresta tropical. Determinada a descobrir seus segredos, Léo decidiu seguir as pistas.
+                    </p>
+                    <p>🌄 Capítulo 1: O Pico da Tijuca
+Sua jornada começou no Rio de Janeiro, subindo o Pico da Tijuca ao amanhecer. Lá, encontrou uma inscrição que apontava para Olinda, em Pernambuco. Ele teve que decidir: seguir para Olinda ou voltar para casa. A escolha era sua</p>
+                    <p>🏛️ Capítulo 2: Olinda
+Em Olinda, Léo explorou igrejas antigas e praias. Nas igrejas, encontrou um mapa escondido atrás de um altar, indicando que a próxima pista estava no Amazonas. Ele teve que decidir: seguir para o Amazonas ou explorar mais Olinda.</p>
+                    <p>🌊 Capítulo 3: O Amazonas
+No Amazonas, Léo se deparou com um rio bifurcado. Ele teve que escolher: seguir pelo rio à esquerda ou à direita. Cada escolha levava a diferentes descobertas e desafios.
+                    </p>
+                    <p>
+                        🏙️ Capítulo 4: A Cidade Perdida
+Seguindo o rio à esquerda, Léo encontrou uma cachoeira escondida com inscrições antigas que revelavam a entrada da cidade perdida. Dentro da cidade, ele descobriu tesouros inimagináveis e decidiu se dedicar a estudar e preservar aquele lugar misterioso.
+                    </p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Projeto sobre perguntas utilizando Pyhton e JavaScript!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto cria uma experiência interativa educativa sobre
+                            perguntas diversas, permitindo aos usuários explorar informações sobre geografia, programação e linguagem.</p>
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/MarcosV1907">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Marcos Vinícius</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
